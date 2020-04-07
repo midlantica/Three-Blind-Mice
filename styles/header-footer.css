@@ -1,0 +1,51 @@
+:root {
+  --mastheadColor: var(--amber400);
+}
+
+header,
+footer {
+  color: var(--white);
+  background: var(--primary-dk);
+  width: 100%;
+}
+
+header {
+  /* background: var(--primary-dk); */
+  background-image: linear-gradient(
+    0deg,
+    var(--primary-dk) 0%,
+    var(--primary-lt) 95%,
+    var(--accent) 95%,
+    var(--accent) 100%
+  );
+  box-shadow: 0 0px 6px 0px var(--black);
+}
+
+footer {
+  bottom: 0;
+  background-image: linear-gradient(
+    180deg,
+    var(--primary-dk) 0%,
+    var(--primary-lt) 90%,
+    var(--accent) 90%,
+    var(--accent) 100%
+  );
+}
+
+header h1 {
+  color: var(--mastheadColor);
+  letter-spacing: 0.04ch;
+  text-shadow: 4px 4px 0px black;
+  margin: 0;
+  padding: 0.25rem 1rem;
+}
+
+footer h4,
+footer h5,
+footer h6 {
+  color: var(--mastheadColor);
+  letter-spacing: 0.04ch;
+  text-shadow: 3px 3px 0px black;
+  margin: 0;
+  padding: 0.25rem 1rem 0.5rem;
+}

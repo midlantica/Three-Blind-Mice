@@ -1,0 +1,73 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Ryuichi",
+      "lastName": "Sakamoto",
+      "computerId": 1
+    },
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Smith",
+      "computerId": 2
+    },
+    {
+      "id": 3,
+      "firstName": "Jimmy Joe",
+      "lastName": "Jackson",
+      "computerId": 1
+    },
+    {
+      "id": 4,
+      "firstName": "Jane",
+      "lastName": "Austen",
+      "computerId": 3
+    },
+    {
+      "id": 5,
+      "firstName": "Fennekin",
+      "lastName": "Harper",
+      "computerId": 1
+    }
+  ],
+  "computers": [
+    {
+      "id": 1,
+      "model": "MacBook Pro",
+      "year": 2015
+    },
+    {
+      "id": 2,
+      "model": "Dell PC X1000",
+      "year": 2016
+    },
+    {
+      "id": 3,
+      "model": "ChromeBook 2020",
+      "year": 2020
+    }
+  ],
+  "employeeComputers": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "computerId": 4
+    },
+    {
+      "id": 2,
+      "employeeId": 1,
+      "computerId": 5
+    },
+    {
+      "id": 3,
+      "employeeId": 2,
+      "computerId": 5
+    },
+    {
+      "id": 4,
+      "employeeId": 5,
+      "computerId": 1
+    }
+  ]
+}
