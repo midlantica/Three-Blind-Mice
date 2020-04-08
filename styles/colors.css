@@ -1,0 +1,16 @@
+:root {
+  --font-head: 'VT323', monospace;
+  --font-copy: 'VT323', monospace;
+  /*  */
+  --white: var(--whitesmoke) !important;
+  --black: hsl(240, 5%, 16%) !important;
+  /*  */
+  -textprimary: var(--black);
+  /*  */
+  --primary: var(--blue-gray800) !important;
+  --primary-dk: var(--blue-gray900) !important;
+  --primary-lt: var(--blue-gray700) !important;
+  --secondary: var(--blue-gray500) !important;
+  --tertiary: var(--blue-gray300) !important;
+  --accent: hsl(0, 100%, 23%) !important;
+}
