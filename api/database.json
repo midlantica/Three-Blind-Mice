@@ -108,12 +108,39 @@
     {
       "id": 1,
       "name": "Juniper Distribution"
+    },
+    {
+      "id": 2,
+      "name": "Aubrey Corp"
+    },
+    {
+      "id": 3,
+      "name": "ABC Ltd."
+    },
+    {
+      "id": 4,
+      "name": "ACME Corp"
     }
   ],
   "employeeCustomers": [
     {
       "id": 1,
       "customerId": 1,
+      "employeeId": 3
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "employeeId": 1
+    },
+    {
+      "id": 3,
+      "customerId": 5,
+      "employeeId": 2
+    },
+    {
+      "id": 4,
+      "customerId": 3,
       "employeeId": 2
     }
   ]
