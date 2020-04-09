@@ -26,7 +26,7 @@ const Employee = (
         <span class="employee--subject">PC:</span>
         ${computerObj.model} – ${computerObj.year}</p>
       <div class="employee__customers marTH">
-        <p>Previous customers:</p>
+        <p>Clients:</p>
         <ul>
           ${customerObj
             .map((customerObj) => `<li>${customerObj.name}</li>`)

@@ -6,6 +6,7 @@
 @import './scrollbar.css';
 @import './dialog.css';
 @import './employees.css';
+@import './customer.css';
 
 a {
   color: var(--primary);
