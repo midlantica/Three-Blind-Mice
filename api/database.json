@@ -145,12 +145,12 @@
     },
     {
       "id": 5,
-      "customerId": 3,
+      "customerId": 2,
       "employeeId": 5
     },
     {
       "id": 6,
-      "customerId": 3,
+      "customerId": 1,
       "employeeId": 6
     },
     {

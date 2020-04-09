@@ -1,4 +1,5 @@
 import { getComputers } from './computers/ComputerProvider.js'
+import { CustomerList } from './customers/CustomerList.js'
 import { getCustomers } from './customers/CustomerProvider.js'
 import { getDepartments } from './departments/DepartmentProvider.js'
 import { getEmployeeCustomers } from './employees/EmployeeCustomersProvider.js'
@@ -13,3 +14,4 @@ getEmployees()
   .then(getCustomers)
   .then(getEmployeeCustomers)
   .then(EmployeeList)
+  .then(CustomerList)

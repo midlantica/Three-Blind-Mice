@@ -12,5 +12,6 @@
   --primary-lt: var(--blue-gray700) !important;
   --secondary: var(--blue-gray500) !important;
   --tertiary: var(--blue-gray300) !important;
+  --tertiary-lt: var(--blue-gray100) !important;
   --accent: hsl(0, 100%, 23%) !important;
 }
