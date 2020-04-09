@@ -20,7 +20,6 @@ const render = (customersToRender) => {
         return employee.id === customerObj.customerId
       })
 
-      // ###################
       // Find customer/[s] for the current employee
       let filterCustomersEmployee = employeeCustomers.filter(
         (fce) => fce.customerId === customerObj.id
