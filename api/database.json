@@ -109,7 +109,7 @@
       "id": 1,
       "name": "Juniper Distribution"
     },
-    {
+    ({
       "id": 2,
       "name": "Aubrey Corp"
     },
@@ -120,6 +120,14 @@
     {
       "id": 4,
       "name": "ACME Corp"
+    },
+    {
+      "id": 5,
+      "name": "Dolittle Co."
+    },
+    {
+      "id": 6,
+      "name": "Widgets Inc."
     }
   ],
   "employeeCustomers": [
@@ -145,7 +153,7 @@
     },
     {
       "id": 5,
-      "customerId": 2,
+      "customerId": 4,
       "employeeId": 5
     },
     {
@@ -155,7 +163,7 @@
     },
     {
       "id": 7,
-      "customerId": 3,
+      "customerId": 5,
       "employeeId": 1
     }
   ]
