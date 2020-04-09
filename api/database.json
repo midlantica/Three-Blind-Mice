@@ -109,7 +109,7 @@
       "id": 1,
       "name": "Juniper Distribution"
     },
-    ({
+    {
       "id": 2,
       "name": "Aubrey Corp"
     },
@@ -158,7 +158,7 @@
     },
     {
       "id": 6,
-      "customerId": 1,
+      "customerId": 6,
       "employeeId": 6
     },
     {
