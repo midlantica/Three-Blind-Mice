@@ -54,3 +54,7 @@ main {
   border: 4px dashed var(--accent);
   /* background: var(--white); */
 }
+
+main .topper h4:first-of-type {
+  margin: 0;
+}

@@ -5,7 +5,7 @@
   --white: var(--whitesmoke) !important;
   --black: hsl(240, 5%, 16%) !important;
   /*  */
-  -textprimary: var(--black);
+  --text-primary: var(--black);
   /*  */
   --primary: var(--blue-gray800) !important;
   --primary-dk: var(--blue-gray900) !important;

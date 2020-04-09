@@ -14,6 +14,9 @@ const render = (employeesToRender) => {
   const locations = useLocations()
   const employeeCustomers = useEmployeeCustomers()
   const customers = useCustomers()
+  const employees = useEmployees()
+
+  // Setup Emplyee Customers relationship
 
   contentTarget.innerHTML = employeesToRender
     .map((employeeObj) => {
@@ -32,19 +35,22 @@ const render = (employeesToRender) => {
         return location.id === employeeObj.locationId
       })
 
-      // Find related locations for the current employee
-      const foundEmployeeCustomers = employeeCustomers.find(
-        (employeeCustomers) => {
-          return customers.id === employeeObj.cutomerId
-        }
+      // ###################
+      // Find customer/[s] for the current employee
+      let filterEmployeeCustomers = employeeCustomers.filter(
+        (fec) => fec.employeeId === employeeObj.id
       )
+
+      filterEmployeeCustomers = filterEmployeeCustomers.map((fec) => {
+        return customers.find((customer) => customer.id === fec.customerId)
+      })
 
       return Employee(
         employeeObj,
         foundComputer,
         foundDepartment,
         foundLocation,
-        foundEmployeeCustomers
+        filterEmployeeCustomers
       )
     })
     .join('')
